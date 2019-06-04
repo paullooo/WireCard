@@ -1,0 +1,6 @@
+framework module Pods_WireCardUITests {
+  umbrella header "Pods-WireCardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

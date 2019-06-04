@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1A82F5229E1C1500CDE8CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A82F4229E1C1500CDE8CF /* AppDelegate.swift */; };
+		0B1A82F7229E1C1500CDE8CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A82F6229E1C1500CDE8CF /* ViewController.swift */; };
+		0B1A82FC229E1C1600CDE8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1A82FB229E1C1600CDE8CF /* Assets.xcassets */; };
+		0B1A82FF229E1C1600CDE8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1A82FD229E1C1600CDE8CF /* LaunchScreen.storyboard */; };
+		0B1A830A229E1C1600CDE8CF /* WireCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A8309229E1C1600CDE8CF /* WireCardTests.swift */; };
+		0B1A8315229E1C1600CDE8CF /* WireCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A8314229E1C1600CDE8CF /* WireCardUITests.swift */; };
+		0B1A8324229E21C400CDE8CF /* SignInAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A8323229E21C400CDE8CF /* SignInAPI.swift */; };
+		0B3F910822A5F27D00CF945B /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3F910722A5F27D00CF945B /* OrderDetail.swift */; };
+		0B75900222A369E80046CC3A /* OrderBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75900122A369E80046CC3A /* OrderBusiness.swift */; };
+		0B75900422A3709D0046CC3A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75900322A3709D0046CC3A /* Order.swift */; };
+		0B75900722A4304E0046CC3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75900622A4304E0046CC3A /* LoginViewController.swift */; };
+		0B75900922A4305E0046CC3A /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75900822A4305E0046CC3A /* OrdersViewController.swift */; };
+		0B75900B22A430700046CC3A /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75900A22A430700046CC3A /* OrderDetailViewController.swift */; };
+		0B75900D22A431B40046CC3A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75900C22A431B40046CC3A /* RegisterViewController.swift */; };
+		0B75901022A4361B0046CC3A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75900F22A4361B0046CC3A /* LoginViewModel.swift */; };
+		0B75901222A446890046CC3A /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75901122A446890046CC3A /* OrderViewModel.swift */; };
+		0B75901522A46FA40046CC3A /* FormatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75901422A46FA40046CC3A /* FormatHelper.swift */; };
+		0B75901722A581EC0046CC3A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75901622A581EC0046CC3A /* Router.swift */; };
+		0BC1A55A22A3346E00E3F177 /* LoginBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1A55922A3346E00E3F177 /* LoginBusiness.swift */; };
+		0BC1A55C22A345FB00E3F177 /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1A55B22A345FB00E3F177 /* Callback.swift */; };
+		0BC1A55E22A34B3900E3F177 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1A55D22A34B3900E3F177 /* Login.swift */; };
+		0BC1A56022A360C900E3F177 /* OrderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1A55F22A360C900E3F177 /* OrderAPI.swift */; };
+		28E92E36FF5BC50046688566 /* Pods_WireCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0FEA351D280249D63D9EF1 /* Pods_WireCardTests.framework */; };
+		F1AEFDE8E55446563CA36CCD /* Pods_WireCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0387DD8128F9F31090A703 /* Pods_WireCardUITests.framework */; };
+		FB8098222C19136E2AB26D3E /* Pods_WireCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4092BEDB511A143B65BF8826 /* Pods_WireCard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B1A8306229E1C1600CDE8CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B1A82E9229E1C1500CDE8CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B1A82F0229E1C1500CDE8CF;
+			remoteInfo = WireCard;
+		};
+		0B1A8311229E1C1600CDE8CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B1A82E9229E1C1500CDE8CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B1A82F0229E1C1500CDE8CF;
+			remoteInfo = WireCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1A82F1229E1C1500CDE8CF /* WireCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WireCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1A82F4229E1C1500CDE8CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B1A82F6229E1C1500CDE8CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B1A82FB229E1C1600CDE8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B1A82FE229E1C1600CDE8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B1A8300229E1C1600CDE8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1A8305229E1C1600CDE8CF /* WireCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WireCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1A8309229E1C1600CDE8CF /* WireCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireCardTests.swift; sourceTree = "<group>"; };
+		0B1A830B229E1C1600CDE8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1A8310229E1C1600CDE8CF /* WireCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WireCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1A8314229E1C1600CDE8CF /* WireCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireCardUITests.swift; sourceTree = "<group>"; };
+		0B1A8316229E1C1600CDE8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1A8323229E21C400CDE8CF /* SignInAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAPI.swift; sourceTree = "<group>"; };
+		0B3F910722A5F27D00CF945B /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
+		0B75900122A369E80046CC3A /* OrderBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBusiness.swift; sourceTree = "<group>"; };
+		0B75900322A3709D0046CC3A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		0B75900622A4304E0046CC3A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0B75900822A4305E0046CC3A /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		0B75900A22A430700046CC3A /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		0B75900C22A431B40046CC3A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0B75900F22A4361B0046CC3A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0B75901122A446890046CC3A /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		0B75901422A46FA40046CC3A /* FormatHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatHelper.swift; sourceTree = "<group>"; };
+		0B75901622A581EC0046CC3A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0BC1A55922A3346E00E3F177 /* LoginBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBusiness.swift; sourceTree = "<group>"; };
+		0BC1A55B22A345FB00E3F177 /* Callback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callback.swift; sourceTree = "<group>"; };
+		0BC1A55D22A34B3900E3F177 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		0BC1A55F22A360C900E3F177 /* OrderAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderAPI.swift; sourceTree = "<group>"; };
+		22E7F4777619189B57F4F15E /* Pods-WireCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireCardTests.release.xcconfig"; path = "Target Support Files/Pods-WireCardTests/Pods-WireCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E97AD8B114DD67DA63474AA /* Pods-WireCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireCardUITests.release.xcconfig"; path = "Target Support Files/Pods-WireCardUITests/Pods-WireCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34AA0F42C083BFD1F9B8B537 /* Pods-WireCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireCardTests.debug.xcconfig"; path = "Target Support Files/Pods-WireCardTests/Pods-WireCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4092BEDB511A143B65BF8826 /* Pods_WireCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0FEA351D280249D63D9EF1 /* Pods_WireCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F00877E1512537618514CF /* Pods-WireCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireCard.debug.xcconfig"; path = "Target Support Files/Pods-WireCard/Pods-WireCard.debug.xcconfig"; sourceTree = "<group>"; };
+		8D0387DD8128F9F31090A703 /* Pods_WireCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58210FC8D9D6A5419771C1D /* Pods-WireCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireCardUITests.debug.xcconfig"; path = "Target Support Files/Pods-WireCardUITests/Pods-WireCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C05DFBE0A5D2FF81BEEB506C /* Pods-WireCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireCard.release.xcconfig"; path = "Target Support Files/Pods-WireCard/Pods-WireCard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B1A82EE229E1C1500CDE8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8098222C19136E2AB26D3E /* Pods_WireCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1A8302229E1C1600CDE8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E92E36FF5BC50046688566 /* Pods_WireCardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1A830D229E1C1600CDE8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AEFDE8E55446563CA36CCD /* Pods_WireCardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1A82E8229E1C1500CDE8CF = {
+			isa = PBXGroup;
+			children = (
+				0B1A82F3229E1C1500CDE8CF /* WireCard */,
+				0B1A8308229E1C1600CDE8CF /* WireCardTests */,
+				0B1A8313229E1C1600CDE8CF /* WireCardUITests */,
+				0B1A82F2229E1C1500CDE8CF /* Products */,
+				177823953E817B1ABC954A60 /* Pods */,
+				179449A103703676C63354B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B1A82F2229E1C1500CDE8CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B1A82F1229E1C1500CDE8CF /* WireCard.app */,
+				0B1A8305229E1C1600CDE8CF /* WireCardTests.xctest */,
+				0B1A8310229E1C1600CDE8CF /* WireCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B1A82F3229E1C1500CDE8CF /* WireCard */ = {
+			isa = PBXGroup;
+			children = (
+				0B75901322A46F960046CC3A /* Helper */,
+				0B75900E22A433C10046CC3A /* ViewModel */,
+				0B75900522A4303E0046CC3A /* View */,
+				0BC1A55822A3343100E3F177 /* Business */,
+				0B1A8322229E1FD100CDE8CF /* Service */,
+				0B1A82F4229E1C1500CDE8CF /* AppDelegate.swift */,
+				0B1A82F6229E1C1500CDE8CF /* ViewController.swift */,
+				0B1A82FB229E1C1600CDE8CF /* Assets.xcassets */,
+				0B1A82FD229E1C1600CDE8CF /* LaunchScreen.storyboard */,
+				0B1A8300229E1C1600CDE8CF /* Info.plist */,
+			);
+			path = WireCard;
+			sourceTree = "<group>";
+		};
+		0B1A8308229E1C1600CDE8CF /* WireCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B1A8309229E1C1600CDE8CF /* WireCardTests.swift */,
+				0B1A830B229E1C1600CDE8CF /* Info.plist */,
+			);
+			path = WireCardTests;
+			sourceTree = "<group>";
+		};
+		0B1A8313229E1C1600CDE8CF /* WireCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B1A8314229E1C1600CDE8CF /* WireCardUITests.swift */,
+				0B1A8316229E1C1600CDE8CF /* Info.plist */,
+			);
+			path = WireCardUITests;
+			sourceTree = "<group>";
+		};
+		0B1A8322229E1FD100CDE8CF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0B1A8323229E21C400CDE8CF /* SignInAPI.swift */,
+				0BC1A55F22A360C900E3F177 /* OrderAPI.swift */,
+				0BC1A55B22A345FB00E3F177 /* Callback.swift */,
+				0BC1A55D22A34B3900E3F177 /* Login.swift */,
+				0B75900322A3709D0046CC3A /* Order.swift */,
+				0B3F910722A5F27D00CF945B /* OrderDetail.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0B75900522A4303E0046CC3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B75900622A4304E0046CC3A /* LoginViewController.swift */,
+				0B75900822A4305E0046CC3A /* OrdersViewController.swift */,
+				0B75900A22A430700046CC3A /* OrderDetailViewController.swift */,
+				0B75900C22A431B40046CC3A /* RegisterViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B75900E22A433C10046CC3A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0B75900F22A4361B0046CC3A /* LoginViewModel.swift */,
+				0B75901122A446890046CC3A /* OrderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0B75901322A46F960046CC3A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0B75901422A46FA40046CC3A /* FormatHelper.swift */,
+				0B75901622A581EC0046CC3A /* Router.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0BC1A55822A3343100E3F177 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				0BC1A55922A3346E00E3F177 /* LoginBusiness.swift */,
+				0B75900122A369E80046CC3A /* OrderBusiness.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		177823953E817B1ABC954A60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74F00877E1512537618514CF /* Pods-WireCard.debug.xcconfig */,
+				C05DFBE0A5D2FF81BEEB506C /* Pods-WireCard.release.xcconfig */,
+				34AA0F42C083BFD1F9B8B537 /* Pods-WireCardTests.debug.xcconfig */,
+				22E7F4777619189B57F4F15E /* Pods-WireCardTests.release.xcconfig */,
+				B58210FC8D9D6A5419771C1D /* Pods-WireCardUITests.debug.xcconfig */,
+				2E97AD8B114DD67DA63474AA /* Pods-WireCardUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		179449A103703676C63354B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4092BEDB511A143B65BF8826 /* Pods_WireCard.framework */,
+				6A0FEA351D280249D63D9EF1 /* Pods_WireCardTests.framework */,
+				8D0387DD8128F9F31090A703 /* Pods_WireCardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B1A82F0229E1C1500CDE8CF /* WireCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1A8319229E1C1600CDE8CF /* Build configuration list for PBXNativeTarget "WireCard" */;
+			buildPhases = (
+				91FBAF08B17134094008107F /* [CP] Check Pods Manifest.lock */,
+				0B1A82ED229E1C1500CDE8CF /* Sources */,
+				0B1A82EE229E1C1500CDE8CF /* Frameworks */,
+				0B1A82EF229E1C1500CDE8CF /* Resources */,
+				2E1830A3622EBFD884DF4B8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WireCard;
+			productName = WireCard;
+			productReference = 0B1A82F1229E1C1500CDE8CF /* WireCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B1A8304229E1C1600CDE8CF /* WireCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1A831C229E1C1600CDE8CF /* Build configuration list for PBXNativeTarget "WireCardTests" */;
+			buildPhases = (
+				75A62BE4A376EF9800031A0A /* [CP] Check Pods Manifest.lock */,
+				0B1A8301229E1C1600CDE8CF /* Sources */,
+				0B1A8302229E1C1600CDE8CF /* Frameworks */,
+				0B1A8303229E1C1600CDE8CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B1A8307229E1C1600CDE8CF /* PBXTargetDependency */,
+			);
+			name = WireCardTests;
+			productName = WireCardTests;
+			productReference = 0B1A8305229E1C1600CDE8CF /* WireCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B1A830F229E1C1600CDE8CF /* WireCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1A831F229E1C1600CDE8CF /* Build configuration list for PBXNativeTarget "WireCardUITests" */;
+			buildPhases = (
+				356D25E761203ACAA5B8C30D /* [CP] Check Pods Manifest.lock */,
+				0B1A830C229E1C1600CDE8CF /* Sources */,
+				0B1A830D229E1C1600CDE8CF /* Frameworks */,
+				0B1A830E229E1C1600CDE8CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B1A8312229E1C1600CDE8CF /* PBXTargetDependency */,
+			);
+			name = WireCardUITests;
+			productName = WireCardUITests;
+			productReference = 0B1A8310229E1C1600CDE8CF /* WireCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B1A82E9229E1C1500CDE8CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = paulopereira;
+				TargetAttributes = {
+					0B1A82F0229E1C1500CDE8CF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0B1A8304229E1C1600CDE8CF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0B1A82F0229E1C1500CDE8CF;
+					};
+					0B1A830F229E1C1600CDE8CF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0B1A82F0229E1C1500CDE8CF;
+					};
+				};
+			};
+			buildConfigurationList = 0B1A82EC229E1C1500CDE8CF /* Build configuration list for PBXProject "WireCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B1A82E8229E1C1500CDE8CF;
+			productRefGroup = 0B1A82F2229E1C1500CDE8CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B1A82F0229E1C1500CDE8CF /* WireCard */,
+				0B1A8304229E1C1600CDE8CF /* WireCardTests */,
+				0B1A830F229E1C1600CDE8CF /* WireCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B1A82EF229E1C1500CDE8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1A82FF229E1C1600CDE8CF /* LaunchScreen.storyboard in Resources */,
+				0B1A82FC229E1C1600CDE8CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1A8303229E1C1600CDE8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1A830E229E1C1600CDE8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E1830A3622EBFD884DF4B8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WireCard/Pods-WireCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WireCard/Pods-WireCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		356D25E761203ACAA5B8C30D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A62BE4A376EF9800031A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FBAF08B17134094008107F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B1A82ED229E1C1500CDE8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B75900B22A430700046CC3A /* OrderDetailViewController.swift in Sources */,
+				0BC1A55C22A345FB00E3F177 /* Callback.swift in Sources */,
+				0BC1A56022A360C900E3F177 /* OrderAPI.swift in Sources */,
+				0B1A82F7229E1C1500CDE8CF /* ViewController.swift in Sources */,
+				0B75900922A4305E0046CC3A /* OrdersViewController.swift in Sources */,
+				0B75900422A3709D0046CC3A /* Order.swift in Sources */,
+				0B75901022A4361B0046CC3A /* LoginViewModel.swift in Sources */,
+				0B1A8324229E21C400CDE8CF /* SignInAPI.swift in Sources */,
+				0BC1A55E22A34B3900E3F177 /* Login.swift in Sources */,
+				0B75901522A46FA40046CC3A /* FormatHelper.swift in Sources */,
+				0B75901722A581EC0046CC3A /* Router.swift in Sources */,
+				0B1A82F5229E1C1500CDE8CF /* AppDelegate.swift in Sources */,
+				0B75900222A369E80046CC3A /* OrderBusiness.swift in Sources */,
+				0B75900D22A431B40046CC3A /* RegisterViewController.swift in Sources */,
+				0B75901222A446890046CC3A /* OrderViewModel.swift in Sources */,
+				0B3F910822A5F27D00CF945B /* OrderDetail.swift in Sources */,
+				0B75900722A4304E0046CC3A /* LoginViewController.swift in Sources */,
+				0BC1A55A22A3346E00E3F177 /* LoginBusiness.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1A8301229E1C1600CDE8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1A830A229E1C1600CDE8CF /* WireCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1A830C229E1C1600CDE8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1A8315229E1C1600CDE8CF /* WireCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B1A8307229E1C1600CDE8CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B1A82F0229E1C1500CDE8CF /* WireCard */;
+			targetProxy = 0B1A8306229E1C1600CDE8CF /* PBXContainerItemProxy */;
+		};
+		0B1A8312229E1C1600CDE8CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B1A82F0229E1C1500CDE8CF /* WireCard */;
+			targetProxy = 0B1A8311229E1C1600CDE8CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B1A82FD229E1C1600CDE8CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B1A82FE229E1C1600CDE8CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B1A8317229E1C1600CDE8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B1A8318229E1C1600CDE8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B1A831A229E1C1600CDE8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F00877E1512537618514CF /* Pods-WireCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7R5DW23MV;
+				INFOPLIST_FILE = WireCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.WireCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1A831B229E1C1600CDE8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05DFBE0A5D2FF81BEEB506C /* Pods-WireCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7R5DW23MV;
+				INFOPLIST_FILE = WireCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.WireCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B1A831D229E1C1600CDE8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AA0F42C083BFD1F9B8B537 /* Pods-WireCardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79956U2XN9;
+				INFOPLIST_FILE = WireCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.WireCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WireCard.app/WireCard";
+			};
+			name = Debug;
+		};
+		0B1A831E229E1C1600CDE8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E7F4777619189B57F4F15E /* Pods-WireCardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79956U2XN9;
+				INFOPLIST_FILE = WireCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.WireCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WireCard.app/WireCard";
+			};
+			name = Release;
+		};
+		0B1A8320229E1C1600CDE8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58210FC8D9D6A5419771C1D /* Pods-WireCardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79956U2XN9;
+				INFOPLIST_FILE = WireCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.WireCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WireCard;
+			};
+			name = Debug;
+		};
+		0B1A8321229E1C1600CDE8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E97AD8B114DD67DA63474AA /* Pods-WireCardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79956U2XN9;
+				INFOPLIST_FILE = WireCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.WireCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WireCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B1A82EC229E1C1500CDE8CF /* Build configuration list for PBXProject "WireCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1A8317229E1C1600CDE8CF /* Debug */,
+				0B1A8318229E1C1600CDE8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1A8319229E1C1600CDE8CF /* Build configuration list for PBXNativeTarget "WireCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1A831A229E1C1600CDE8CF /* Debug */,
+				0B1A831B229E1C1600CDE8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1A831C229E1C1600CDE8CF /* Build configuration list for PBXNativeTarget "WireCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1A831D229E1C1600CDE8CF /* Debug */,
+				0B1A831E229E1C1600CDE8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1A831F229E1C1600CDE8CF /* Build configuration list for PBXNativeTarget "WireCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1A8320229E1C1600CDE8CF /* Debug */,
+				0B1A8321229E1C1600CDE8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B1A82E9229E1C1500CDE8CF /* Project object */;
+}
