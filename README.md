@@ -8,11 +8,7 @@ Use cocoapods
 
 ```bash
 gem install cocoapods
-```
-
-## Usage
-
-```pod install
+pod install
 ```
 
 ## Libraries
@@ -23,7 +19,6 @@ gem install cocoapods
 
 **Yes, you can create this APP without the need for these libraries, but they make our lives much easier.**
 
-Kingfisher help with image download and cache <3
 
 Moya, supports API contracts
 
